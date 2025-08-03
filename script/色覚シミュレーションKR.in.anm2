@@ -1,15 +1,27 @@
 --information:${INFO} ${VERSION} by ${AUTHOR}
 --label:色調整
---track@severity:Severity,0,100,100,0.01
---select@visionType:Type=1,Normal=0,Protan=1,Deutan=2,Tritan=3,Achromat=4
+---$track:Severity
+---min=0
+---max=100
+---step=0.01
+local severity = 100
+
+---$select:Type
+---Normal=0
+---Protan=1
+---Deutan=2
+---Tritan=3
+---Achromat=4
+local visionType = 1
+
 --[[pixelshader@brettel1997:
-${SHADER_brettel1997}
+---$include "brettel1997.hlsl"
 ]]
 --[[pixelshader@vienot1999:
-${SHADER_vienot1999}
+---$include "vienot1999.hlsl"
 ]]
 --[[pixelshader@achromat:
-${SHADER_achromat}
+---$include "achromat.hlsl"
 ]]
 
 local severity = severity / 100.0
