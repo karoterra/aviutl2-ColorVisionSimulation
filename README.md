@@ -3,7 +3,7 @@
 自分と違う色覚を持つ人はどのように色が見えているのかシミュレーションする
 [AviUtl2](http://spring-fragrance.mints.ne.jp/aviutl/) スクリプトです。
 
-[AviUtl1 用の色覚シミュレーションKR](https://github.com/karoterra/aviutl-Bend) を AviUtl2 用に移植したものです。
+[AviUtl1 用の色覚シミュレーションKR](https://github.com/karoterra/aviutl-ColorVisionSimulation) を AviUtl2 用に移植したものです。
 
 ## 注意事項
 
@@ -13,7 +13,7 @@
 
 ## 動作環境
 
-AviUtl ExEdit2 version 2.0beta1 にて動作確認しました。
+AviUtl ExEdit2 version 2.0beta12 にて動作確認しました。
 
 ## 導入方法
 
